@@ -9,12 +9,12 @@ type Step = {
 }
 
 const steps: Step[] = [
-  { id: 1, title: "Current Status" },
-  { id: 2, title: "Student List" },
-  { id: 3, title: "Admissions Contact" },
-  { id: 4, title: "Response Speed" },
-  { id: 5, title: "Final Step" }
-]
+  { id: 1, title: "Current Status", emoji: "📝" },
+  { id: 2, title: "Student List", emoji: "📋" },
+  { id: 3, title: "Admissions Contact", emoji: "📞" },
+  { id: 4, title: "Response Speed", emoji: "⏱️" },
+  { id: 5, title: "Final Step", emoji: "✅" }
+];
 
 export default function ApplicationForm() {
   const navigate = useNavigate()

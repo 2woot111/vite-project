@@ -1,4 +1,3 @@
-import React from 'react'
 import '../styles/SuccessPage.css'
 
 export default function SuccessPage() {
